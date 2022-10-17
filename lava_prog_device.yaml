@@ -1,0 +1,8 @@
+metadata:
+    format: Lava-Test Test Definition 1.0
+    name: testrack-image-prog-service
+    description: "Service that programs a given image onto the device."
+
+run:
+    steps:
+        - ./lava_prog_device.sh
